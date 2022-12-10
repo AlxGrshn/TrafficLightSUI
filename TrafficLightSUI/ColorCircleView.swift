@@ -19,9 +19,3 @@ struct ColorCircleView: View {
             .padding(10)
     }
 }
-
-struct ColorCircleView_Previews: PreviewProvider {
-    static var previews: some View {
-        ColorCircleView(color: .black, opacity: 0.3)
-    }
-}
