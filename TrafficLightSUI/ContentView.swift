@@ -21,9 +21,11 @@ struct ContentView: View {
             
             VStack {
                 ColorCircleView(color: .red, opacity: redLightOpacity)
+                    .padding(10)
                 ColorCircleView(color: .yellow, opacity: yellowLightOpacity)
+                    .padding(10)
                 ColorCircleView(color: .green, opacity: greenLightOpacity)
-               
+                    .padding(10)
                 Spacer()
                 
                 Button(action: turnTrafficLight) {
