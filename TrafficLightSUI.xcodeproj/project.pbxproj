@@ -12,6 +12,7 @@
 		08AE6D5E29449DEA0021F56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AE6D5D29449DEA0021F56F /* Assets.xcassets */; };
 		08AE6D6129449DEA0021F56F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AE6D6029449DEA0021F56F /* Preview Assets.xcassets */; };
 		08AE6D6829449ED80021F56F /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AE6D6729449ED80021F56F /* ColorCircleView.swift */; };
+		08E0C09329475ECE00543D4B /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E0C09229475ECE00543D4B /* StartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		08AE6D5D29449DEA0021F56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08AE6D6029449DEA0021F56F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08AE6D6729449ED80021F56F /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
+		08E0C09229475ECE00543D4B /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				08AE6D5929449DE80021F56F /* TrafficLightSUIApp.swift */,
 				08AE6D5B29449DE80021F56F /* ContentView.swift */,
+				08E0C09229475ECE00543D4B /* StartButtonView.swift */,
 				08AE6D6729449ED80021F56F /* ColorCircleView.swift */,
 				08AE6D5D29449DEA0021F56F /* Assets.xcassets */,
 				08AE6D5F29449DEA0021F56F /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08AE6D6829449ED80021F56F /* ColorCircleView.swift in Sources */,
+				08E0C09329475ECE00543D4B /* StartButtonView.swift in Sources */,
 				08AE6D5C29449DE80021F56F /* ContentView.swift in Sources */,
 				08AE6D5A29449DE80021F56F /* TrafficLightSUIApp.swift in Sources */,
 			);

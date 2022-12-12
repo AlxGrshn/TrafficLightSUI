@@ -19,33 +19,21 @@ struct ContentView: View {
             Color.black
                 .ignoresSafeArea()
             
-            VStack {
+            VStack(spacing: 20){
                 ColorCircleView(color: .red, opacity: redLightOpacity)
-                    .padding(10)
                 ColorCircleView(color: .yellow, opacity: yellowLightOpacity)
-                    .padding(10)
                 ColorCircleView(color: .green, opacity: greenLightOpacity)
-                    .padding(10)
                 Spacer()
                 
-                Button(action: turnTrafficLight) {
-                    Text(buttonName)
-                        .font(.largeTitle)
-                        .tint(.white)
+                StartButtonView(title: buttonName) {
+                    if buttonName == "START" {
+                        buttonName = "NEXT"
+                    }
+                    trafficLightSwitchColor()
                 }
-                .frame(width: 130, height: 50)
-                .background(Color.blue)
-                .clipShape(Capsule())
-                .overlay(Capsule().stroke(Color.white, lineWidth: 5))
-            }.padding()
+            }
+            .padding()
         }
-    }
-    
-    private func turnTrafficLight() {
-        if buttonName == "START" {
-            buttonName = "NEXT"
-        }
-        trafficLightSwitchColor()
     }
     
     private func trafficLightSwitchColor() {
